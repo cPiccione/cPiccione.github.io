@@ -91,10 +91,10 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html, #container, .inner { background-color:transparent;}
 html {
-  background:url('pexels-stywo-1054222'.jpg) center center no-repeat fixed;
-  background-size:cover;
+  background: url('pexels-stywo-1054222.jpg') center center no-repeat fixed;
+  background-size: cover;
+  min-height: 100vh; 
 }
 body {
   max-width:800px;
